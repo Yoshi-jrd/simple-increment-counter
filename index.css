@@ -1,0 +1,45 @@
+/* Style for Counter Project */
+
+body{
+    text-align: center;
+    background-color: #3b3b3b;
+}
+span{
+    font-size: 8em;
+    padding: 0 0.2em 0 0.2em;
+    background-color: #ddd;
+}
+h1{
+    font-size: 6em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+}
+.container{
+    margin: 0 auto;
+    background-color: lightslategray;
+    width: min-content;
+    height: auto;
+    padding: 0 3em 2em 3em;
+}
+button{
+    margin: 1em 0 0 0;
+    border: black;
+    border-style: solid;
+    border-radius: 20% / 50%;
+    width: 7em;
+    height: 2.5em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+    font-size: 1em;
+}
+#increase{
+    color: darkgreen;
+    text-shadow: green .3px 0 6px;
+}
+#decrease{
+    color: darkred;
+    text-shadow: red .3px 0 6px;
+}
+#reset{
+    text-shadow: rgb(77, 76, 76) .3px 0 6px;
+}
